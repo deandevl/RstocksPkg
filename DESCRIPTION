@@ -1,0 +1,13 @@
+Package: RstocksPkg
+Type: Package
+Title: Provides functions for access/analysis of US stock market
+Version: 0.1.0
+Author: Rick Dean , <deanr3@bardstown.com>
+Maintainer: Rick Dean, <deanr3@bardstown.com>
+Description: R computer scripts provide helpful functions/graphics/trends/modeling of US stocks
+Imports: data.table,ggplot2,purrr,padr,rlang,quantmod,RplotterPkg,rvest,xml2
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

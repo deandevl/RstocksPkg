@@ -1,0 +1,5 @@
+get_yahoo_stock_prices_demo   Get specific yahoo stock prices by symbol/date
+get_tiingo_stock_prices_demo  Get specific tiingo stock prices by symbol/date
+get_dividends_demo            Get specific dividends by symbol/date
+get_dow30_symbols_demo        Get all DOW30 symbols and company names
+get_SP500_symbols_demo        Get all SP500 symbols with company descriptions
