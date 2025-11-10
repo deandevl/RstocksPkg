@@ -9,7 +9,9 @@
 #' @importFrom rvest html_table
 #' @importFrom data.table data.table
 #'
-#' @author Rick Dean
+#' @examples
+#' symbols_sp500_df <- RstocksPkg::get_SP500_symbols()
+#' str(symbols_sp500_df)
 #'
 #' @export
 get_SP500_symbols <- function(){

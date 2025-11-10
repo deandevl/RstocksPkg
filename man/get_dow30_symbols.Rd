@@ -15,6 +15,8 @@ Returns a data frame with character strings of ticker symbols
   for 30 of the stock market's top blue chip companies("ticker").
   Also a column that names the company ("company").
 }
-\author{
-Rick Dean
+\examples{
+dow30_df <- RstocksPkg::get_dow30_symbols()
+head(dow30_df)
+
 }

@@ -20,7 +20,10 @@
 #'
 #' @return A data table with historic "Date"'s along with stock price related variables.
 #'
-#' @author Rick Dean
+#' @examples
+#' # call get_stock_prices() with all the argument defaults to get a data.frame of IBM stock prices
+#' ibm_prices_dt <- RstocksPkg::get_stock_prices()
+#' str(ibm_prices_dt)
 #'
 #' @importFrom quantmod getSymbols
 #' @importFrom data.table as.data.table

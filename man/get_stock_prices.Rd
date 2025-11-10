@@ -47,6 +47,9 @@ For more detailed info on getting prices from "yahoo" or "tiingo" see the help f
 quantmod::getSymbols.yahoo() or quantmod::getSymbols.tiingo(). Note that stock price downloads
 require an active internet connection.
 }
-\author{
-Rick Dean
+\examples{
+# call get_stock_prices() with all the argument defaults to get a data.frame of IBM stock prices
+ibm_prices_dt <- RstocksPkg::get_stock_prices()
+str(ibm_prices_dt)
+
 }

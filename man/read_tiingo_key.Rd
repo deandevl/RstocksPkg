@@ -17,6 +17,3 @@ A .Renviron file can be created by running \code{usethis::edit_r_environ()}.  A 
  named "RIINGO_TOKEN" was defined in this file with the user's tiingo auth key gotten from the tiingo web site.
  To make changes to .Renviron file enter \code{usethis::edit_r_environ()}.
 }
-\author{
-Rick Dean
-}

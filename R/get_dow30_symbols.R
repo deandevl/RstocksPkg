@@ -6,7 +6,9 @@
 #'   Also a column that names the company ("company").
 #' @return A data frame of ticker symbols and their company names.
 #'
-#' @author Rick Dean
+#' @examples
+#' dow30_df <- RstocksPkg::get_dow30_symbols()
+#' head(dow30_df)
 #'
 #' @export
 get_dow30_symbols <- function(){

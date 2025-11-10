@@ -13,7 +13,6 @@
 #'
 #' @return returns the api key string
 #'
-#' @author Rick Dean
 #'
 #' @export
 read_tiingo_key <- function(){

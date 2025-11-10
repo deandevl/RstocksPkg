@@ -12,6 +12,8 @@ A data frame with variables for S&P 500 symbols, company names, and company sect
 \description{
 Returns a character vector of S&P 500 symbols using Wikipedia as a source.
 }
-\author{
-Rick Dean
+\examples{
+symbols_sp500_df <- RstocksPkg::get_SP500_symbols()
+str(symbols_sp500_df)
+
 }
